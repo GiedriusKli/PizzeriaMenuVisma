@@ -77,7 +77,7 @@ const toppings = function (toppings) {
 const checkName = function (name) {
   for (let i = 0; i < menu.length; i++) {
     console.log(menu[i].name, name);
-    if (menu[i].name === name) {
+    if (menu[i].name.toLowerCase() === name.toLowerCase()) {
       alert("This pizza name is already taken");
       return false;
     }
