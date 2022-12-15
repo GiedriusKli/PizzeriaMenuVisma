@@ -1,6 +1,6 @@
 let pizza, markup;
 let currentSort = "name";
-const heatImg = // rename heatImg constant to heatImage
+const heatImg = 
   "<img src=" +
   "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-chili-fruits-and-vegetables-kiranshastry-lineal-color-kiranshastry.png" +
   "/>";
